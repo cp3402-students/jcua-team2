@@ -1,1 +1,1 @@
-# Steps to develop theme
+# Steps to develop themes
