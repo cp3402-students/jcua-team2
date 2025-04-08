@@ -1,31 +1,33 @@
-# Feature
-This theme includes a header and a footer, sevarl patterns.
-The header contains the learning center Logo and a navigation bar.
-The navigation bar cotains four link to different page.
-- Home
-- About Us
-- Programs
-- Contact
+# Features
+This theme includes a header, a footer, and several patterns.  
+The header contains the Learning Center logo and a navigation bar.  
+The navigation bar contains four links to different pages:
+- **Home**
+- **About Us**
+- **Programs**
+- **Contact**
 
 # Files
-## header.html and footer.html
-This two files contains the content for the header and footer, which can be easily changed.
 
-## functions.php
-This file contains the code for all neccessary functions related to the theme.
+## `header.html` and `footer.html`
+These two files contain the content for the header and footer, which can be easily changed.
 
-## style.css
-This file contains the nesscessry code for the theme such as background color and text color, text design.
+## `functions.php`
+This file contains the code for all necessary functions related to the theme.
 
-# Supporting files
-- contact-section
-- cta
-- faq-section
-- hero-banner
-- newsletter-sign-up
-- team-info
-- text-two columns
-- three-columns
+## `style.css`
+This file contains the necessary code for the theme, such as background color, text color, and text design.
+
+# Supporting Files
+- `contact-section`
+- `cta`
+- `faq-section`
+- `hero-banner`
+- `newsletter-sign-up`
+- `team-info`
+- `text-two-columns`
+- `three-columns`
 
 # Design Decisions
-Logo of the site is located at the leaft side of header. The main color of theme is light orange and secondary is light grey, which supossed to be relaxing and eye-sight friendly.
+The logo of the site is located on the **left** side of the header.  
+The main color of the theme is **light orange**, and the secondary color is **light grey**, which are intended to be relaxing and welcoming.
