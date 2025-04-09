@@ -38,7 +38,7 @@ Forms were embedded directly into relevant pages using the WPForms block in the 
 
 ### Setup Steps
 
-- Install and activate **WPForms Lite** from the WordPress plugin repository.  
+- Install and activate **WPForms Lite**.  
 - Go to **WPForms > Add New** to create a new form.  
 - Choose a template (e.g., Contact Form) or build one from scratch using the drag-and-drop builder.  
 - Customize form fields, labels, and confirmation messages.  
@@ -66,7 +66,7 @@ We used Query Monitor to monitor database queries on each page load, analyze tem
 
 ### Setup Steps
 
-- Install and activate **Query Monitor** from the WordPress plugin repository.
+- Install and activate **Query Monitor**.
 - (Optional) Enable detailed query logging in `wp-config.php`:
   ```php
   define( 'WP_DEBUG', true );
@@ -88,7 +88,7 @@ We used Debug Bar to monitor PHP notices, track executed MySQL queries, and keep
 
 ### Setup Steps
 
-- Install and activate **Debug Bar** from the WordPress plugin repository.
+- Install and activate **Debug Bar**.
 - (Optional) Enable debugging in `wp-config.php`:
   ```php
   define( 'WP_DEBUG', true );
