@@ -1,3 +1,43 @@
+# Baizonn Website Layout and Content Management
+
+The Baizonn website is built using a **WordPress Full Site Editing (FSE) theme**, allowing full visual control of the site’s layout and content. This setup enables administrators to update and customize the site without needing any programming knowledge.
+
+All elements of the site are created and managed using drag-and-drop **blocks**, making it simple for new users to edit or add content.
+
+## Adding New Content
+
+Content can be added in two main ways: as **Pages** or as **Posts**, depending on the purpose of the content.
+
+### Adding a Page
+
+- Navigate to the **Pages** section in the WordPress dashboard.
+- Click **"Add New Content"**.
+- Use the available pre-designed patterns such as:
+  - `Heroe-Banner`
+  - `FAQs`
+  - `Recommended`
+- These block patterns provide a consistent design structure for new pages.
+- Once the content is complete, click **Publish** to make the page live.
+- Pages are typically used for standalone content such as About Us, Contact, or Services.
+
+### Publishing a Post
+
+- Navigate to the **Posts** section and select **Add New**.
+- Use the block editor to insert text, images, or multimedia content.
+- Assign the post to the appropriate **category**, depending on its type or topic.
+- Posts are generally used for blog entries, updates, or other time-based content.
+
+## Customizing Site Appearance
+
+- Go to the **Appearance Editor** to modify:
+  - Headers and footers
+  - Site-wide colors
+  - Fonts and typography
+- All customization is done through the visual interface using drag-and-drop functionality.
+- No coding or web design experience is required.
+
+---
+
 # WordPress Plugin Usage – Baizonn Learning Centre Website
 
 ## WPForce SSL (Download Link)
