@@ -71,6 +71,7 @@ We used Query Monitor to monitor database queries on each page load, analyze tem
   ```php
   define( 'WP_DEBUG', true );
   define( 'SAVEQUERIES', true );
+- The above step is optional, and not needed if the plugin works after activation.
 
 ---
 
@@ -92,4 +93,5 @@ We used Debug Bar to monitor PHP notices, track executed MySQL queries, and keep
 - (Optional) Enable debugging in `wp-config.php`:
   ```php
   define( 'WP_DEBUG', true );
-  define( 'SAVEQUERIES', true );
+  define( 'SAVEQUERIES', true )
+- The plugin works and shows up at the top left, so there shouldnt be any need to download it directly into the repository.
