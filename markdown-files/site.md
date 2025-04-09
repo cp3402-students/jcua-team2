@@ -24,8 +24,6 @@ The Baizonn Learning Centre website is hosted on SiteGround, which automatically
 
 ---
 
-## WPForms Lite Plugin – Baizonn Learning Centre Website
-
 ## WPForms Lite (Download Link)
 
 https://wordpress.org/plugins/wpforms-lite/
@@ -52,3 +50,46 @@ Forms were embedded directly into relevant pages using the WPForms block in the 
 
 Using WPForms Lite simplified communication between the learning centre and its users. It provided a reliable way to collect contact details, inquiries, and registrations, significantly improving the efficiency of user interaction and administrative follow-up.
 
+---
+
+## Query Monitor (Download Link)
+
+https://wordpress.org/plugins/query-monitor/
+
+### Why We Used Query Monitor
+
+Query Monitor was used as an advanced debugging tool during the development and testing phases of the WordPress site. It allowed developers to quickly identify performance issues, problematic plugins or themes, and PHP errors. Its ability to show detailed information about database queries, hooks, HTTP requests, and template loading made it invaluable for optimizing site performance and diagnosing bugs. The plugin also provides a comprehensive admin toolbar interface, making complex information easy to navigate and filter.
+
+### How We Used Query Monitor
+
+We used Query Monitor to monitor database queries on each page load, analyze template file usage, catch PHP warnings, and inspect AJAX and REST API calls. The plugin helped highlight slow or duplicate queries, pinpoint broken dependencies in scripts and styles, and review all conditional functions on a given page. It was especially useful when fine-tuning the performance of custom themes or when troubleshooting plugin conflicts.
+
+### Setup Steps
+
+- Install and activate **Query Monitor** from the WordPress plugin repository.
+- (Optional) Enable detailed query logging in `wp-config.php`:
+  ```php
+  define( 'WP_DEBUG', true );
+  define( 'SAVEQUERIES', true );
+
+---
+
+## Debug Bar (Download Link)
+
+https://wordpress.org/plugins/debug-bar/
+
+### Why We Used Debug Bar
+
+Debug Bar was used to quickly check basic debugging information during early development and troubleshooting. It provides a clean and minimal interface for reviewing MySQL queries, PHP warnings, cache usage, and other key metrics. Its lightweight design made it perfect for quick diagnostics without overwhelming the admin dashboard. The plugin also serves as a foundation for a range of add-ons, allowing developers to extend its functionality as needed.
+
+### How We Used Debug Bar
+
+We used Debug Bar to monitor PHP notices, track executed MySQL queries, and keep an eye on object caching behavior. It was particularly useful during theme development and plugin customization when quick checks were needed without diving into complex interfaces. We also used compatible add-ons like **Debug Bar Console** to run real-time PHP or SQL commands directly from the dashboard.
+
+### Setup Steps
+
+- Install and activate **Debug Bar** from the WordPress plugin repository.
+- (Optional) Enable debugging in `wp-config.php`:
+  ```php
+  define( 'WP_DEBUG', true );
+  define( 'SAVEQUERIES', true );
